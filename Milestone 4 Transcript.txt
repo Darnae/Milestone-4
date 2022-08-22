@@ -1,0 +1,19 @@
+Hello and welcome to the presentation of my fourth milestone assignment.
+
+For this Milestone I had to make a class very similar to the one in Milestone 3. I have created all six methods as asked for in the instructions and the milestone guide provided in the class resources.
+
+As I have shown my variable named "storage" has is a List instead of an Array. This variable will hold all of my inventory items and will be manipulated in different ways depending on the method.
+
+My first method is named also named "Storage()". In this method, the initial value and list of items are declared. This method will be called upon several times by the other methods. My first example is in the next method, named "increase_storage()". As the name suggest, this is where I will add an item to the inventory. The first thing you see in this method is that first method Storage() being called. I did this so that the compiler views Storage() as a template that will be changed. I then add the item lightbulbs into the storage list.
+
+Each method after follows relatively the same process. I called upon the Storage() method and then implement the unique processes of each method. For the method "search_storage()" I use this to search for an item by two criteria. The first criteria being name and the second first letter. I used an If statement so that the criteria automatically switches between the two. As shown in the demonstration, this loop works as inteneded.
+
+I have linked each method to its own button in the interface, so that it can be manipulated from there. 
+
+For the requirement of two forms, I have used the first form as a cover page that links to the second (main) page with the press of a button.
+
+Now as for problems with this assignment, there were not many but there was an important one. The biggest challenge I faced for this assignment was working with data type List. I found quickly that I could not use it in the same way I did an Array. Both adding and deleting items from it were different which stumped me temporarily. The main issue though, was figuring out how to make sure the data from List transfered to each Method for manipulation. I spent more time in this one area than any other in this project. This was proving to be the biggest challenge from converting from Array's to List.
+
+Eventually, I figured out the solution to this problem and that was to have a method for initial items and call back to it repeatedly (what I talked about in the first method). I am still learning how to code efficiently, so I do not currently know if there was a better way, but this is the solution that worked best for me.
+
+ 
